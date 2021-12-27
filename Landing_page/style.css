@@ -122,3 +122,50 @@ form input{
     text-align: center;
     border-radius: 20px;
 }
+@media screen and (max-width: 1400px){
+    header .logo{
+        position: relative;
+        max-width: 60px;
+        border-radius: 80px;
+    }
+    .content .textbox h2{
+        color: #333;
+        font-size: 1.5em;
+        line-height:1.4em;
+        font-weight: 500;
+    }
+    .content .textbox h2 span{
+        color: pink;
+        font-size: 1.5em;
+        font-weight: 900;
+    } 
+    .content .textbox a{
+        color:white;
+        display: inline-block;
+        margin-top: 20px;
+        padding: 8px 20px;
+        background:pink;
+        border-radius: 40px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        text-decoration: none;
+        max-width: 40%;
+    }
+    .content .ImgBox{
+        width: 600px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        padding-right: 50px;
+        margin-top: 70px;
+        border-radius: 20px;
+    }
+    header ul li a{
+        display: inline-block;
+        color: #333;
+        font-weight: 200;
+        margin-left: 40px;
+        text-decoration: none;
+        font-size: 9px;
+    }
+}
